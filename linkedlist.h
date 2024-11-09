@@ -4,7 +4,6 @@
 
 class LinkedList
 {
-{
 private:
     Word *head;
     Word *tail;
@@ -13,7 +12,7 @@ public:
     LinkedList();
 
 
-    void addToList(T data);
+    void addToList(Word *data);
     void printList();
 
    // void insertAtBeginning(T data);
