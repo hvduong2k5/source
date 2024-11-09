@@ -1,6 +1,4 @@
 #include "linkedlist.h"
 
-LinkedList::LinkedList()
-{
-
-}
+LinkedList() : head(nullptr), tail(nullptr), size(0)
+{}
