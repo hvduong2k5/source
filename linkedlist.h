@@ -21,7 +21,7 @@ public:
    // void deleteAtBeginning();
    // void deleteAtEnd();
    // void deleteAtPosition(int position);
-    bool search(T data);
+   // bool search(QString );
 };
 
 #endif // LINKEDLIST_H
