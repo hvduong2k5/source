@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QDockWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -25,8 +24,6 @@ public:
     QWidget *centralwidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
-    QDockWidget *dockWidget_2;
-    QWidget *dockWidgetContents_2;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -43,12 +40,6 @@ public:
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
-        dockWidget_2 = new QDockWidget(MainWindow);
-        dockWidget_2->setObjectName("dockWidget_2");
-        dockWidgetContents_2 = new QWidget();
-        dockWidgetContents_2->setObjectName("dockWidgetContents_2");
-        dockWidget_2->setWidget(dockWidgetContents_2);
-        MainWindow->addDockWidget(Qt::DockWidgetArea::TopDockWidgetArea, dockWidget_2);
 
         retranslateUi(MainWindow);
 
