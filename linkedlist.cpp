@@ -1,4 +1,4 @@
 #include "linkedlist.h"
 
-LinkedList() : head(nullptr), tail(nullptr), size(0)
-{}
+//LinkedList() : head(nullptr), tail(nullptr),body(nullptr), size(0)
+//{ }

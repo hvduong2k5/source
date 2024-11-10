@@ -1,7 +1,7 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-
+#include"word.h"
 class LinkedList
 {
 private:
@@ -11,7 +11,7 @@ private:
     int size;
 public:
     LinkedList();
-
+    ~LinkedList();
 
     void addToList(Word *data);
     void printList();

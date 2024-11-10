@@ -8,7 +8,7 @@ Word::~Word()
 {
 
 }
-Word::Word(const std::string& line) : left(NULL), right(NULL) {
+/*Word::Word(const std::string& line) : left(NULL), right(NULL) {
     int i = 0;
     std::string buffer;
 
@@ -76,3 +76,4 @@ Word::Word(const std::string& line) : left(NULL), right(NULL) {
         }
     }
 }
+*/

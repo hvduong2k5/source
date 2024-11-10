@@ -1,8 +1,9 @@
 #ifndef WORD_H
 #define WORD_H
 #include<QString>
-#include "linkedlist.h"
+//#include "linkedlist.h"
 using namespace std;
+class LinkdedList;
 class Word
 {
 private:
