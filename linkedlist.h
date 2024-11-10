@@ -2,6 +2,7 @@
 #define LINKEDLIST_H
 
 #include"word.h"
+class Dictionary;
 class LinkedList
 {
 private:
@@ -12,7 +13,7 @@ private:
 public:
     LinkedList();
     ~LinkedList();
-
+    friend class Dictionary;
     void addToList(Word *data);
     void printList();
 
