@@ -51,7 +51,7 @@ public:
     {
         if (LoginWindow->objectName().isEmpty())
             LoginWindow->setObjectName("LoginWindow");
-        LoginWindow->resize(599, 392);
+        LoginWindow->resize(607, 392);
         LoginWindow->setAutoFillBackground(false);
         centralwidget = new QWidget(LoginWindow);
         centralwidget->setObjectName("centralwidget");
@@ -118,6 +118,7 @@ public:
         lineEdit->setMinimumSize(QSize(300, 50));
         lineEdit->setMaximumSize(QSize(500, 80));
         lineEdit->setFont(font2);
+        lineEdit->setEchoMode(QLineEdit::EchoMode::Password);
 
         horizontalLayout_4->addWidget(lineEdit);
 
@@ -193,7 +194,7 @@ public:
         LoginWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(LoginWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 599, 30));
+        menubar->setGeometry(QRect(0, 0, 607, 30));
         LoginWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(LoginWindow);
         statusbar->setObjectName("statusbar");

@@ -6,6 +6,9 @@ LoginWindow::LoginWindow(QWidget *parent) :
     ui(new Ui::LoginWindow)
 {
     ui->setupUi(this);
+
+    this->setStyleSheet("background-color: #CCFFFF	;");  // Màu lam nhạt
+
 }
 
 LoginWindow::~LoginWindow()

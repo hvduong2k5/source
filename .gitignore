@@ -1,0 +1,3 @@
+# Bỏ qua các file exe và tmp trong thư mục build
+build/**/*.exe
+build/**/*.tmp*
