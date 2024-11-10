@@ -7,6 +7,7 @@ class LinkedList
 private:
     Word *head;
     Word *tail;
+    Word *body;//Word chinh giua
     int size;
 public:
     LinkedList();
