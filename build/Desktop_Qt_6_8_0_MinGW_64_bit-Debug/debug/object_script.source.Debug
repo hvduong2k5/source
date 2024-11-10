@@ -1,0 +1,11 @@
+debug/dictionary.o
+debug/linkedlist.o
+debug/loginwindow.o
+debug/main.o
+debug/mainwindow.o
+debug/registerwindow.o
+debug/user.o
+debug/word.o
+debug/moc_loginwindow.o
+debug/moc_mainwindow.o
+debug/moc_registerwindow.o

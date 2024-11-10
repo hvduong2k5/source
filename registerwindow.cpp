@@ -6,6 +6,8 @@ RegisterWindow::RegisterWindow(QWidget *parent) :
     ui(new Ui::RegisterWindow)
 {
     ui->setupUi(this);
+    this->setStyleSheet("background-color: #CCFFFF	;");  // Màu lam nhạt
+
 }
 
 RegisterWindow::~RegisterWindow()
