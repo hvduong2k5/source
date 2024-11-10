@@ -16,6 +16,7 @@ SOURCES += \
     mainwindow.cpp \
     registerwindow.cpp \
     user.cpp \
+    usermanagement.cpp \
     word.cpp
 
 HEADERS += \
@@ -25,6 +26,7 @@ HEADERS += \
     mainwindow.h \
     registerwindow.h \
     user.h \
+    usermanagement.h \
     word.h
 
 FORMS += \
