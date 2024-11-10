@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     dictionary.cpp \
     linkedlist.cpp \
+    loginwindow.cpp \
     main.cpp \
     mainwindow.cpp \
     user.cpp \
@@ -19,11 +20,13 @@ SOURCES += \
 HEADERS += \
     dictionary.h \
     linkedlist.h \
+    loginwindow.h \
     mainwindow.h \
     user.h \
     word.h
 
 FORMS += \
+    loginwindow.ui \
     mainwindow.ui
 
 # Default rules for deployment.
