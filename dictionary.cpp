@@ -8,15 +8,15 @@ void readFile(const QString file_path)
 {
     QFile file(file_path);
     if (!file.exists()) {
-        QMessageBox::warning(this, "Cảnh báo", "Tệp " + file + " không tồn tại!");
-        return 1;
+        QMessageBox::warning(nullptr, "Cảnh báo", "Tệp " + file_path + " không tồn tại!");
+        return ;
     }
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        QMessageBox::warning(this, "Cảnh báo", "Không thể mở file: " + file.errorString());
-        return 1;
+        QMessageBox::warning(nullptr, "Cảnh báo", "Không thể mở file: " + file.errorString());
+        return ;
     }
     QTextStream in(&file);
-    in.setCodec("UTF-8");
+    in.setEncoding(QStringConverter::Utf8);
     QString content = in.readAll();
     file.close();
 }

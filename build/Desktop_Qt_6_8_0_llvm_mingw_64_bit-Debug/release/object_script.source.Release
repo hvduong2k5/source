@@ -1,0 +1,12 @@
+release/dictionary.o
+release/linkedlist.o
+release/loginwindow.o
+release/main.o
+release/mainwindow.o
+release/registerwindow.o
+release/user.o
+release/usermanagement.o
+release/word.o
+release/moc_loginwindow.o
+release/moc_mainwindow.o
+release/moc_registerwindow.o
