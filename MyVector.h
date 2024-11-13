@@ -3,8 +3,6 @@
 
 #include <stdexcept>
 
-using namespace std;
-
 template <typename T>
 class MyVector {
 private:
@@ -27,6 +25,6 @@ public:
     void clear();
 };
 
-#include "MyVector.cpp" 
+#include "MyVector.tpp"
 
 #endif // MYVECTOR_H
